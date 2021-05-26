@@ -26,4 +26,45 @@
         <servlet-name>AddUser</servlet-name>
         <url-pattern>/add-user</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DemoCookie</servlet-name>
+        <servlet-class>ServletCookieDemo</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DemoCookie</servlet-name>
+        <url-pattern>/demo-cookie</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SetSessionName</servlet-name>
+        <servlet-class>SetSession</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SetSessionName</servlet-name>
+        <url-pattern>/set-session</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetSessionName</servlet-name>
+        <servlet-class>GetSession</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>GetSessionName</servlet-name>
+        <url-pattern>/get-session</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ListUser</servlet-name>
+        <servlet-class>ServletListUser</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ListUser</servlet-name>
+        <url-pattern>/list-user</url-pattern>
+    </servlet-mapping>
+
 </web-app>
